@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Travis-Example.xcscheme</key>
+		<key>Travis-Example.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5B93E65C200002E20034DC4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B93E670200002E20034DC4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B93E67B200002E20034DC4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
