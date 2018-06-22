@@ -1,4 +1,7 @@
 language: swift
 osx_image: xcode9.1
+install:
+- bundle install
+- bundle exec fastlane test
 script:
 - Bundle fastlane test
