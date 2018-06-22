@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B8039DE2000175B00AEA108 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 5B8039DC2000175B00AEA108 /* .travis.yml */; };
+		5B8039DF2000175B00AEA108 /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 5B8039DD2000175B00AEA108 /* fastlane */; };
 		5B93E661200002E20034DC4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B93E660200002E20034DC4F /* AppDelegate.swift */; };
 		5B93E663200002E20034DC4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B93E662200002E20034DC4F /* ViewController.swift */; };
 		5B93E668200002E20034DC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B93E667200002E20034DC4F /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B8039DC2000175B00AEA108 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.applescript; };
+		5B8039DD2000175B00AEA108 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
 		5B93E65D200002E20034DC4F /* Travis-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travis-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B93E660200002E20034DC4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B93E662200002E20034DC4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 		5B93E654200002E20034DC4F = {
 			isa = PBXGroup;
 			children = (
+				5B8039DC2000175B00AEA108 /* .travis.yml */,
+				5B8039DD2000175B00AEA108 /* fastlane */,
 				5B93E65F200002E20034DC4F /* Travis-Example */,
 				5B93E674200002E20034DC4F /* Travis-ExampleTests */,
 				5B93E67F200002E20034DC4F /* Travis-ExampleUITests */,
@@ -229,7 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8039DE2000175B00AEA108 /* .travis.yml in Resources */,
 				5B93E66B200002E20034DC4F /* LaunchScreen.storyboard in Resources */,
+				5B8039DF2000175B00AEA108 /* fastlane in Resources */,
 				5B93E668200002E20034DC4F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
