@@ -13,7 +13,7 @@ class Travis_ExampleTests: XCTestCase {
 
     func testExample() {
         guard let window = UIApplication.shared.delegate?.window as? UIWindow else { return }
-        XCTAssertTrue(window.rootViewController?.view.backgroundColor == .purple, "That shit aint blue")
+        XCTAssertTrue(window.rootViewController?.view.backgroundColor == .purple, "That shit aint purple")
     }
     
 }
